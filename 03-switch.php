@@ -6,19 +6,19 @@ if(isset($_GET['page'])){
 
     switch ($p) {
         case 'Contactez-nous':
-            $content = '<h4>Contactez-nous</h4>';
+            $content = '<h3>Contactez-nous</h3>';
             break;
         case 'Galerie':
-            $content = '<h4>Galerie</h4>';
+            $content = '<h3>Galerie</h3>';
             break;
         case 'Photos':
-            $content = '<h4>Photos</h4>';
+            $content = '<h3>Photos</h3>';
             break;
         case 'Plan':
-            $content = '<h4>Plan</h4>';
+            $content = '<h3>Plan</h3>';
             break;
         case 'Info':
-            $content = '<h4>Info</h4>';
+            $content = '<h3>Info</h3>';
             break;
         default:
             $content = '<h3>Erreur 404</h3>';

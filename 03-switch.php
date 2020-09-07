@@ -5,19 +5,19 @@ if(isset($_GET['page'])){
     $p = $_GET['page'];
 
     switch ($p) {
-        case 'Contactez-nous':
+        case 'contactez-nous':
             $content = '<h3>Contactez-nous</h3>';
             break;
-        case 'Galerie':
+        case 'galerie':
             $content = '<h3>Galerie</h3>';
             break;
-        case 'Photos':
+        case 'photos':
             $content = '<h3>Photos</h3>';
             break;
-        case 'Plan':
+        case 'plan':
             $content = '<h3>Plan</h3>';
             break;
-        case 'Info':
+        case 'info':
             $content = '<h3>Info</h3>';
             break;
         default:
